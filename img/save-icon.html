@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>アイコン画像保存ヘルパー</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Meiryo UI', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #4a6bdf;
+        }
+        .instructions {
+            background-color: #f5f7fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 50%;
+            border: 5px solid #ff0000;
+        }
+        .button {
+            background-color: #4a6bdf;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .warning {
+            background-color: #ffeeee;
+            color: #cc0000;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>アイコン画像の保存方法</h1>
+    
+    <div class="instructions">
+        <p>以下の手順で画像を保存してください：</p>
+        <ol>
+            <li>下の画像を右クリックします</li>
+            <li>「名前を付けて画像を保存」または「画像を保存」を選択します</li>
+            <li>ファイル名を「icon.png」として保存します</li>
+            <li>保存先を「img」フォルダに指定します</li>
+        </ol>
+    </div>
+    
+    <div class="image-container">
+        <!-- ここに添付画像を表示 -->
+        <img src="../img/icon.png" alt="アイコン画像">
+    </div>
+    
+    <div class="warning">
+        <p>注意：画像ファイルが破損しないように、必ず「名前を付けて画像を保存」を使用してください。</p>
+        <p>テキストエディタで開いたり編集したりしないでください。</p>
+    </div>
+    
+    <p>画像を保存したら、このファイルは閉じて構いません。</p>
+    <a href="../index.html" class="button">メインページに戻る</a>
+</body>
+</html> 
